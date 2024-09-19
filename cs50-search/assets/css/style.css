@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #555;
+}
+
+body {
+    height: 10vh;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+/* Let's say there should be navs in the left corner as well as the right corner(using two "ul" tags).
+   Here is how the css for nav would loook like to make them separated. 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+*/
+
+nav {
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+li a {
+    text-decoration: none;
+   
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    position: relative;
+}
+
+.logo {
+    width: 18em;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.search-section {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacebar {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    border-radius: 45px;
+    border: solid 1px #d3d3d3;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.75);
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-icon {
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.mic-icon {
+    width: 28px;
+    position: absolute;
+    top: 9px;
+    left: 540px;
+}
+
+.div-buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px
+}
+.button {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.75);
+    cursor: pointer;
+}
+
+.advanced-logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 18em;
+    margin-bottom: 20px;
+}
+
+.find-page {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.advanced-search {
+    margin-left: 40px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.advanced-form {
+    position: relative;
+}
+
+.red-text-div {
+    margin: 25px 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.red-text-div label{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-left: 10px;
+}
+
+.advanced-searchbar {
+    width: 580px;
+    height: 27px;
+    border: solid 1px #d3d3d3;
+    margin-top: 10px;
+    padding: 1px 8px;
+    margin-left: 15px ; 
+}
+
+.advanced-searchbar:focus {
+    outline: none;
+}
+
+.advanced-to {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.advanced-small  {
+    width: 270px;
+    height: 27px;
+    border: solid 1px #d3d3d3;
+    padding: 1px 8px; 
+}
+
+.advanced-small:focus {
+    outline: none;
+}
+
+.advanced-to p {
+    margin: 0 15px;
+}
+
+.button-div {
+    margin: 25px 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+    
+}
+
+.advanced-button {
+    color: rgb(255, 255, 255);
+    background-color: CornflowerBlue;
+    border-color: white;
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    font-size: 11px;
+    margin-left: 602px;
+    margin-top: 20px;
+}
+
+.advanced-button:hover {
+    display: flex;
+    color: #fff;
+    background-color: CornflowerBlue;
+    border: 1px solid #053d79;
+}
+
+

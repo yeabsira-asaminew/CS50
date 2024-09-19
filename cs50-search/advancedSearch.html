@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!--  <li class="nav-item"><a href="index.html">Home</a></li>  -->
+                <li class="nav-item"><a href="index.html">Search</a></li>
+                <li class="nav-item"><a href="imageSearch.html">Image Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="advanced-logo">
+        <a href="index.html"><img src="assets/images/logo.png" alt="Google Logo"></a>
+    </section>
+
+    <section class="advanced-search">
+
+        <div class="red-text-div">
+            <label>Advanced Search</label>
+        </div>
+
+        <p class="find-page">Find pages with...</p>
+
+        <form class="advanced-form" action="https://www.google.com/search" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <p>all these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced-searchbar" type="text" name="as_q" >
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <p>this exact word or phrase:</p>
+                    </td>
+                    <td>
+                        <input class="advanced-searchbar" type="text" name="as_epq">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>any of these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced-searchbar" type="text" name="as_oq">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <p>none of these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced-searchbar" type="text" name="as_eq">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <p>numbers ranging from:</p>
+                    </td>
+                    <td class="advanced-to">
+                        <input class="advanced-small" type="text" name="as_nlo">
+                        <p>to</p>
+                        <input class="advanced-small" type="text" name="as_nhi">
+                    </td>
+                </tr>
+            </table>
+        
+            <div class="button-div">
+                <button type="submit" class="advanced-button">Advanced Search</button>
+            </div>
+
+        </form>
+    
+    </section>
+</body>
+</html>
